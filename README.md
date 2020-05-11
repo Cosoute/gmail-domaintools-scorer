@@ -1,9 +1,13 @@
 
-# GmailJS Node riskscorer
+# Gmail Domaintools Risk Scorer
 
-This repo contains sample code to get a WebExtensions-based
-browser-extension using
-the [gmail.js](https://github.com/KartikTalwar/gmail.js/) library.
+## Overview
+This repo contains the project for creating a chrom extension to to score your gmail email using the domaintools "risk scorer".  This project uses code from the [gmail.js](https://github.com/KartikTalwar/gmail.js/) library.
+
+### Requirements
+In order for this project to run, you must have a Domaintools account - with access to their APIs (which is an optional separate package that you need to make sure to get.
+
+You also need to make sure you turn on CORS (cross object domain requests) otherwise the browser will block it.  Since we will be making calls to Domaintools from within Gmail.
 
 ## Usage
 
@@ -20,7 +24,7 @@ npm install
 # ensure you're running latest version!
 npm update
 
-# build the project
+# make sure you can build the project
 npm run build
 ````
 

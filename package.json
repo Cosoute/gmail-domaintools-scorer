@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "glob": "^7.1.6",
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "request": "^2.23.0",
     "resolve": "^1.17.0",
     "unirest": "^0.6.0",
